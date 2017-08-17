@@ -84,6 +84,7 @@ class Circle extends Component {
           ref={(path) => { this.path = path; }}
           style={strokePathStyle}
         />}
+      { this.props.children }
       </svg>
     );
   }
